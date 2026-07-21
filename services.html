@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services — JadeBridge Medical</title>
+  <meta name="description" content="Surgical specialties JadeBridge Medical covers in Shanghai: orthopaedics, cardio, oncology, ophthalmology, IVF, general surgery." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Cairo:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=20260530-langfix2" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav" id="mainNav">
+      <a href="index.html" class="brand"><span class="brand-mark"></span>JadeBridge Medical</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu">☰</button>
+      <div class="nav-links">
+        <a href="services.html" class="is-active" data-i18n="nav.services">Services</a>
+        <a href="hospitals.html" data-i18n="nav.hospitals">Hospitals</a>
+        <a href="stories.html"   data-i18n="nav.stories">Stories</a>
+        <a href="process.html"   data-i18n="nav.process">How It Works</a>
+        <a href="pricing.html"   data-i18n="nav.pricing">Pricing</a>
+        <a href="about.html"     data-i18n="nav.about">About</a>
+        <span class="lang-switch">
+          <select id="langSwitch" aria-label="Language">
+            <option value="en">English</option><option value="fr">Français</option><option value="es">Español</option>
+            <option value="ar">العربية</option><option value="de">Deutsch</option><option value="zh">中文</option>
+          </select>
+        </span>
+        <a href="contact.html" class="btn btn-primary" data-i18n="cta.consult">Start Consultation</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="page-head">
+    <div class="container">
+      <div class="eyebrow">Specialties</div>
+      <h1>Surgical care, on terms that make sense.</h1>
+      <p class="lede">We focus on the procedures Chinese tertiary hospitals are best in the world at — and we do them at a fixed price, with a chief surgeon you can name before you book the flight.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-3">
+        <div class="card">
+          <div class="card-photo card-photo-ortho" role="img" aria-label="Orthopaedic surgeon reviewing a patient's scan"></div>
+          <h3>Orthopaedics &amp; Joint Replacement</h3>
+          <p>Total knee, total hip, spinal fusion, ACL repair, sports injuries. From <strong>$9,800</strong>.</p>
+          <p class="muted" style="font-size: 0.85rem;">5–7 days inpatient · 4–6 weeks return-to-work</p>
+          <a href="#ortho" class="card-link">Details</a>
+        </div>
+        <div class="card">
+          <div class="card-photo card-photo-cardio" role="img" aria-label="Cardiovascular care team in a modern hospital"></div>
+          <h3>Cardiovascular</h3>
+          <p>Coronary bypass (CABG), valve replacement, angiography &amp; stenting. From <strong>$18,000</strong>.</p>
+          <p class="muted" style="font-size: 0.85rem;">7–10 days inpatient · 8–12 weeks recovery</p>
+          <a href="#cardio" class="card-link">Details</a>
+        </div>
+        <div class="card">
+          <div class="card-photo card-photo-onco" role="img" aria-label="Clinical oncology consultation and treatment planning"></div>
+          <h3>Oncology &amp; Tumour Surgery</h3>
+          <p>Surgical oncology, multi-disciplinary tumour boards, minimally invasive resection. From <strong>$12,000</strong>.</p>
+          <p class="muted" style="font-size: 0.85rem;">Variable · Co-ordinated with home oncologist</p>
+          <a href="#onco" class="card-link">Details</a>
+        </div>
+        <div class="card">
+          <div class="card-photo card-photo-eye" role="img" aria-label="Ophthalmology examination with medical equipment"></div>
+          <h3>Ophthalmology</h3>
+          <p>LASIK, cataract surgery, vitreoretinal surgery, glaucoma. From <strong>$1,400</strong> (both eyes LASIK).</p>
+          <p class="muted" style="font-size: 0.85rem;">Outpatient · 1–3 day stay sufficient</p>
+          <a href="#eye" class="card-link">Details</a>
+        </div>
+        <div class="card">
+          <div class="card-photo card-photo-ivf" role="img" aria-label="Fertility laboratory and IVF clinical care"></div>
+          <h3>IVF &amp; Reproductive</h3>
+          <p>IVF, IUI, fertility preservation, gender-neutral protocols. From <strong>$5,200</strong> per cycle.</p>
+          <p class="muted" style="font-size: 0.85rem;">2–3 week stay · Long-cycle protocols supported</p>
+          <a href="#ivf" class="card-link">Details</a>
+        </div>
+        <div class="card">
+          <div class="card-photo card-photo-general" role="img" aria-label="Surgical team in a hospital operating room"></div>
+          <h3>General &amp; Bariatric</h3>
+          <p>Sleeve gastrectomy, hernia repair, gallbladder, appendix. From <strong>$7,500</strong>.</p>
+          <p class="muted" style="font-size: 0.85rem;">3–5 days inpatient · Predictable recovery</p>
+          <a href="#general" class="card-link">Details</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Deep-dive: Orthopaedics -->
+  <section class="section section--alt" id="ortho">
+    <div class="container">
+      <div class="eyebrow">Orthopaedics &amp; joint replacement</div>
+      <h2>Total Knee Replacement</h2>
+      <p style="max-width: 720px;">A worked example of our most common orthopaedic procedure. Hip replacement, spinal fusion, and ACL repair follow the same package structure — your exact quote is confirmed after specialist review.</p>
+
+      <div style="display: grid; grid-template-columns: 1.4fr 1fr; gap: 40px; margin-top: 40px;">
+        <div>
+          <h3 style="font-family: var(--font-sans); font-size: 1.1rem; color: var(--color-primary); margin-bottom: 12px;">What's included in your package</h3>
+          <ul style="padding-left: 20px;">
+            <li>Pre-op imaging (MRI, X-ray) and full blood panel</li>
+            <li>Surgery by a Class A hospital chief orthopaedic surgeon (1,000+ joint cases)</li>
+            <li>Premium implant (Stryker / DePuy / Zimmer — surgeon's choice)</li>
+            <li>5–7 days in a private VIP ward</li>
+            <li>In-hospital physiotherapy</li>
+            <li>Bilingual case manager throughout</li>
+            <li>12 months remote follow-up with your surgeon</li>
+          </ul>
+        </div>
+        <div>
+          <table class="price-table">
+            <thead>
+              <tr><th>Where</th><th>Cost</th><th>Wait</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>NHS (UK)</td><td>"Free"</td><td>18 mo</td></tr>
+              <tr><td>UK private</td><td>£14,000</td><td>4 wk</td></tr>
+              <tr><td>US average</td><td>$35,000</td><td>4 wk</td></tr>
+              <tr><td><strong>JadeBridge</strong></td><td class="price-ours">$9,800</td><td><strong>4–6 wk</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div style="margin-top: 32px;">
+        <a href="contact.html" class="btn btn-primary">Check if you qualify</a>
+        <a href="stories.html" class="btn btn-secondary" style="margin-left: 8px;">Read James's story</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Deep-dive: Cardiovascular -->
+  <section class="section" id="cardio">
+    <div class="container">
+      <div class="eyebrow">Cardiovascular</div>
+      <h2>Coronary Artery Bypass (CABG)</h2>
+      <p style="max-width: 720px;">Shanghai's leading cardiac centres perform thousands of bypass and valve procedures every year. Valve replacement and angioplasty / stenting follow the same package model.</p>
+
+      <div style="display: grid; grid-template-columns: 1.4fr 1fr; gap: 40px; margin-top: 40px;">
+        <div>
+          <h3 style="font-family: var(--font-sans); font-size: 1.1rem; color: var(--color-primary); margin-bottom: 12px;">What's included in your package</h3>
+          <ul style="padding-left: 20px;">
+            <li>Full pre-op cardiac work-up (echo, angiography, labs)</li>
+            <li>Surgery by a Class A hospital chief cardiac surgeon</li>
+            <li>Multi-vessel bypass and grafts as clinically indicated</li>
+            <li>7–10 days inpatient, including ICU monitoring</li>
+            <li>Cardiac rehabilitation program before discharge</li>
+            <li>Bilingual case manager throughout</li>
+            <li>12 months remote follow-up with your surgeon</li>
+          </ul>
+        </div>
+        <div>
+          <table class="price-table">
+            <thead><tr><th>Where</th><th>Cost</th><th>Wait</th></tr></thead>
+            <tbody>
+              <tr><td>NHS (UK)</td><td>"Free"</td><td>Urgent only</td></tr>
+              <tr><td>UK private</td><td>£35,000</td><td>2–4 wk</td></tr>
+              <tr><td>US average</td><td>$123,000</td><td>2–4 wk</td></tr>
+              <tr><td><strong>JadeBridge</strong></td><td class="price-ours">From $25,000</td><td><strong>4–6 wk</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div style="margin-top: 32px;">
+        <a href="contact.html" class="btn btn-primary">Check if you qualify</a>
+        <a href="hospitals.html" class="btn btn-secondary" style="margin-left: 8px;">See cardiac hospitals</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Deep-dive: Oncology -->
+  <section class="section section--alt" id="onco">
+    <div class="container">
+      <div class="eyebrow">Oncology &amp; tumour surgery</div>
+      <h2>Surgical Oncology</h2>
+      <p style="max-width: 720px;">Cancer cases are reviewed by a multi-disciplinary tumour board before any surgery is proposed. We co-ordinate closely with your oncologist at home so treatment is continuous, not duplicated.</p>
+
+      <div style="display: grid; grid-template-columns: 1.4fr 1fr; gap: 40px; margin-top: 40px;">
+        <div>
+          <h3 style="font-family: var(--font-sans); font-size: 1.1rem; color: var(--color-primary); margin-bottom: 12px;">What's included in your package</h3>
+          <ul style="padding-left: 20px;">
+            <li>Multi-disciplinary tumour board review of your case</li>
+            <li>Pre-op imaging, staging, and pathology</li>
+            <li>Minimally invasive resection where clinically appropriate</li>
+            <li>Inpatient recovery with oncology nursing</li>
+            <li>Co-ordination with your home oncologist for ongoing care</li>
+            <li>Bilingual case manager throughout</li>
+            <li>12 months remote follow-up</li>
+          </ul>
+        </div>
+        <div>
+          <table class="price-table">
+            <thead><tr><th>Where</th><th>Cost</th><th>Wait</th></tr></thead>
+            <tbody>
+              <tr><td>NHS (UK)</td><td>"Free"</td><td>Variable</td></tr>
+              <tr><td>UK private</td><td>£20,000+</td><td>2–4 wk</td></tr>
+              <tr><td>US average</td><td>$50,000+</td><td>2–4 wk</td></tr>
+              <tr><td><strong>JadeBridge</strong></td><td class="price-ours">From $12,000</td><td><strong>By case</strong></td></tr>
+            </tbody>
+          </table>
+          <p class="muted" style="font-size: 0.82rem; margin-top: 10px;">Oncology pricing varies widely by cancer type and stage. Your quote is confirmed only after tumour board review.</p>
+        </div>
+      </div>
+      <div style="margin-top: 32px;">
+        <a href="contact.html" class="btn btn-primary">Request a tumour board review</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Deep-dive: Ophthalmology -->
+  <section class="section" id="eye">
+    <div class="container">
+      <div class="eyebrow">Ophthalmology</div>
+      <h2>LASIK &amp; Vision Correction</h2>
+      <p style="max-width: 720px;">Shanghai operates some of the highest-volume eye centres in Asia. Screening, surgery, and first follow-up are completed within a single 72-hour visit — ideal for a long weekend.</p>
+
+      <div style="display: grid; grid-template-columns: 1.4fr 1fr; gap: 40px; margin-top: 40px;">
+        <div>
+          <h3 style="font-family: var(--font-sans); font-size: 1.1rem; color: var(--color-primary); margin-bottom: 12px;">What's included in your package</h3>
+          <ul style="padding-left: 20px;">
+            <li>Comprehensive eye screening and corneal mapping</li>
+            <li>LASIK or SMILE on both eyes (surgeon's recommendation)</li>
+            <li>Surgery by a high-volume refractive specialist</li>
+            <li>Post-op medication and protective eyewear</li>
+            <li>Next-day follow-up before you fly home</li>
+            <li>Bilingual case manager throughout</li>
+            <li>Remote follow-up for 12 months</li>
+          </ul>
+        </div>
+        <div>
+          <table class="price-table">
+            <thead><tr><th>Where</th><th>Cost</th><th>Wait</th></tr></thead>
+            <tbody>
+              <tr><td>NHS (UK)</td><td>Not covered</td><td>—</td></tr>
+              <tr><td>UK private</td><td>£4,500</td><td>1–2 wk</td></tr>
+              <tr><td>US average</td><td>$5,000</td><td>1–2 wk</td></tr>
+              <tr><td><strong>JadeBridge</strong></td><td class="price-ours">From $1,400</td><td><strong>72-hour visit</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div style="margin-top: 32px;">
+        <a href="contact.html" class="btn btn-primary">Check if you qualify</a>
+        <a href="stories.html" class="btn btn-secondary" style="margin-left: 8px;">Read Ahmed's story</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Deep-dive: IVF -->
+  <section class="section section--alt" id="ivf">
+    <div class="container">
+      <div class="eyebrow">IVF &amp; reproductive</div>
+      <h2>IVF — One Cycle</h2>
+      <p style="max-width: 720px;">Our partner reproductive centres have long experience with international couples. Plan for a 2–3 week stay covering stimulation, retrieval, and transfer; partners are welcome to travel along.</p>
+
+      <div style="display: grid; grid-template-columns: 1.4fr 1fr; gap: 40px; margin-top: 40px;">
+        <div>
+          <h3 style="font-family: var(--font-sans); font-size: 1.1rem; color: var(--color-primary); margin-bottom: 12px;">What's included in your package</h3>
+          <ul style="padding-left: 20px;">
+            <li>Pre-cycle hormonal work-up and fertility assessment</li>
+            <li>Ovarian stimulation and monitoring</li>
+            <li>Egg retrieval and laboratory fertilisation</li>
+            <li>Embryo transfer (fresh or frozen)</li>
+            <li>Bilingual case manager for every consultation</li>
+            <li>Direct line to your reproductive endocrinologist after you return home</li>
+            <li>12 months remote follow-up</li>
+          </ul>
+        </div>
+        <div>
+          <table class="price-table">
+            <thead><tr><th>Where</th><th>Cost</th><th>Wait</th></tr></thead>
+            <tbody>
+              <tr><td>NHS (UK)</td><td>Limited cycles</td><td>Strict criteria</td></tr>
+              <tr><td>UK private</td><td>£7,000</td><td>2–6 wk</td></tr>
+              <tr><td>US average</td><td>$20,000</td><td>2–6 wk</td></tr>
+              <tr><td><strong>JadeBridge</strong></td><td class="price-ours">From $5,200</td><td><strong>2–3 wk stay</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div style="margin-top: 32px;">
+        <a href="contact.html" class="btn btn-primary">Check if you qualify</a>
+        <a href="stories.html" class="btn btn-secondary" style="margin-left: 8px;">Read Maria's story</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Deep-dive: General & Bariatric -->
+  <section class="section" id="general">
+    <div class="container">
+      <div class="eyebrow">General &amp; bariatric surgery</div>
+      <h2>Sleeve Gastrectomy</h2>
+      <p style="max-width: 720px;">Bariatric surgery with a predictable recovery and a predictable price. Hernia repair, gallbladder removal, and appendectomy follow the same package model.</p>
+
+      <div style="display: grid; grid-template-columns: 1.4fr 1fr; gap: 40px; margin-top: 40px;">
+        <div>
+          <h3 style="font-family: var(--font-sans); font-size: 1.1rem; color: var(--color-primary); margin-bottom: 12px;">What's included in your package</h3>
+          <ul style="padding-left: 20px;">
+            <li>Pre-op assessment, imaging, and dietitian consult</li>
+            <li>Laparoscopic sleeve gastrectomy by a chief surgeon</li>
+            <li>3–5 days inpatient recovery</li>
+            <li>Post-op nutrition plan and recovery guidance</li>
+            <li>Bilingual case manager throughout</li>
+            <li>12 months remote follow-up with your surgeon</li>
+          </ul>
+        </div>
+        <div>
+          <table class="price-table">
+            <thead><tr><th>Where</th><th>Cost</th><th>Wait</th></tr></thead>
+            <tbody>
+              <tr><td>NHS (UK)</td><td>"Free"</td><td>Strict criteria</td></tr>
+              <tr><td>UK private</td><td>£11,000</td><td>2–4 wk</td></tr>
+              <tr><td>US average</td><td>$24,000</td><td>2–4 wk</td></tr>
+              <tr><td><strong>JadeBridge</strong></td><td class="price-ours">From $8,500</td><td><strong>4–6 wk</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div style="margin-top: 32px;">
+        <a href="contact.html" class="btn btn-primary">Check if you qualify</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="container">
+      <h2>Not sure which specialty fits your case?</h2>
+      <p>Upload your records — we'll route you to the right surgeon within 72 hours.</p>
+      <a href="contact.html" class="btn btn-primary">Start your consultation</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="brand" style="color: #fff;"><span class="brand-mark"></span>JadeBridge Medical</div>
+          <p style="margin-top: 16px; color: rgba(255,255,255,0.7);" data-i18n="footer.tag">Medical concierge for international patients seeking surgical care in Shanghai.</p>
+          <div class="disclaimer" style="margin-top: 20px;">We are a medical concierge service, not a medical provider. All treatments are performed by licensed Chinese hospitals and their physicians.</div>
+        </div>
+        <div><h4>For patients</h4><ul><li><a href="services.html">Services</a></li><li><a href="hospitals.html">Hospitals</a></li><li><a href="stories.html">Stories</a></li><li><a href="process.html">How it works</a></li><li><a href="pricing.html">Pricing</a></li></ul></div>
+        <div><h4>For partners</h4><ul><li><a href="partners.html">Become a partner</a></li><li><a href="partners.html#earn">Commission model</a></li><li><a href="partners.html#support">Marketing support</a></li></ul></div>
+        <div><h4>Company</h4><ul><li><a href="about.html">About us</a></li><li><a href="contact.html">Contact</a></li><li><a href="#">Privacy policy</a></li><li><a href="#">Terms of service</a></li></ul></div>
+      </div>
+      <div class="footer-bottom"><span>© 2026 JadeBridge Medical. All rights reserved.</span><span>Shanghai · London · Dubai · México DF</span></div>
+    </div>
+  </footer>
+
+  <script src="script.js?v=20260530-langfix2"></script>
+</body>
+</html>
